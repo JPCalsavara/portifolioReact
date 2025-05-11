@@ -12,6 +12,7 @@ interface ProjectCardData {
     name: string;
     link?: string;
     type: string;
+    label: string;
   }
   
   interface ExperienceCardData {

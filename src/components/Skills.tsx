@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import CardSkills from './CardSkills'; // Importa o componente correto
 import { SkillsData } from "../services/inMemoryData"
 

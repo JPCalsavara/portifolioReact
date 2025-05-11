@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { SocialIcon } from './SocialIcon'
 
 const Contact = () => {

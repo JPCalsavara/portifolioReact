@@ -1,11 +1,10 @@
-import React from 'react';
 import { SocialIcon } from './SocialIcon';
 
 function Hero() {
   return (
-    <div className="w-screen text-white mt-10 lg:mt-43 md:items-center">
+    <div className="w-screen text-white mt-10 lg:mt-20 md:items-center">
       <div className="w-full h-auto flex flex-col lg:flex-row lg:justify-between">
-        <div className="w-auto h-auto lg:w-full flex flex-col justify-center items-center flex-2  pt-15 px-5">
+        <div className="w-auto h-auto flex flex-col justify-center items-center flex-2 pt-15 xl:pt-0 px-5">
           <img 
             src="/public/images/hero-img.jpg" 
             alt="Hero Image"
@@ -15,7 +14,7 @@ function Hero() {
             <SocialIcon />
           </div>
         </div>
-        <div className="flex flex-col md:pb-4 px-10 pb-5 pt-10 text-2xl lg:text-3xl text-center lg:text-right w-auto h-fit   justify-center items-center lg:flex-3">
+        <div className="flex flex-col md:pb-4 px-10 xl:pb-5 pt-10 text-2xl lg:text-3xl text-center lg:text-right w-auto h-fit justify-center items-center lg:flex-3">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold pb-3 lg:pb-10">Quem eu sou?</h1>
           <p className="xl:mr-30">
             Meu nome é <span className="font-bold text-indigo-400">João Pedro Calsavara</span>, tenho 19 anos e sou estudante de <span className="font-bold text-indigo-400">Análise e Desenvolvimento de Sistemas na Unicamp</span>. 
@@ -32,15 +31,18 @@ function Hero() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center text-white text-6xl w-full h-auto pb-2 lg:pt-5">
+      <div className="flex flex-col items-center justify-center text-white text-6xl w-full h-auto py-2 pt-5 lg:p-0 px-3 ">
         <a 
           href="#projetos" 
           className="
-            p-3 pb-0 line align-middle animate-bounce
+            p-3 line align-middle animate-bounce
             transition-all duration-500 ease-in-out 
-            hover:-translate-y-2 hover:scale-110 hover:bg-indigo-500 rounded-full"
+            hover:scale-110 hover:bg-indigo-500 rounded-full"
         >
-          <ion-icon name="arrow-down-outline"></ion-icon>
+          <img
+              className='w-15'
+              src='../../public/images/icons/arrow-down-svgrepo-com.svg'
+              />
         </a>
       </div>
     </div>

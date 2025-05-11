@@ -1,4 +1,3 @@
-import React from 'react';
 import { TagsData } from "../services/inMemoryData";
 
 interface SkillsTagsProps {

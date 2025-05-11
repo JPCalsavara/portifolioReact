@@ -1,4 +1,3 @@
-import React from 'react';
 import CardProject from './CardProject';
 import { ProjectsData } from "../services/inMemoryData"
 

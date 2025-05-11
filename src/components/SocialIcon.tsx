@@ -1,4 +1,3 @@
-import React from 'react';
 
 // Define o tipo de socialMedia como as chaves do objeto linksSocial
 export interface socialIconProps { // Garante que socialMedia seja uma chave válida

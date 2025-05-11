@@ -1,5 +1,5 @@
-import React from 'react'
 import SkillsTags from './SkillsTags';
+
 
 interface cardProjectProps{
     title: string;
@@ -35,7 +35,10 @@ const CardProject = ({title,description,tecnosUsed,urlName,produtionLink,reposit
                 Produção
                 </p>
                 <span className='text-white'>
-                    <ion-icon name="open-outline"></ion-icon>
+                    <img
+                    className='w-6'
+                    src='../../public/images/icons/arrow-up-right-from-square-svgrepo-com.svg'
+                    />
                 </span>
             </a>
             <a 
