@@ -1,5 +1,5 @@
-import React from 'react';
-import SkillsTags from './SkillsTags';
+import React from "react";
+import SkillsTags from "./SkillsTags";
 
 interface cardExperienceProps {
   title: string;
@@ -9,9 +9,15 @@ interface cardExperienceProps {
   link?: string;
 }
 
-const pathImageDefault = "../../public/images/experiences/";
+const pathImageDefault = "/images/experiences/";
 
-const CardExperience: React.FC<cardExperienceProps> = ({ title, description, skillsLearned, link, imageName }) => {
+const CardExperience: React.FC<cardExperienceProps> = ({
+  title,
+  description,
+  skillsLearned,
+  link,
+  imageName,
+}) => {
   const pathImageReal = `${pathImageDefault}${imageName}.jpeg`;
 
   const getColor = (category: string) => {
@@ -47,7 +53,9 @@ const CardExperience: React.FC<cardExperienceProps> = ({ title, description, ski
         />
       )}
       <div className="p-5 flex flex-2/3 flex-col justify-between items-center gap-10">
-        <h1 className="text-4xl md:text-6xl xl:text-7xl md font-bold">{title}</h1>
+        <h1 className="text-4xl md:text-6xl xl:text-7xl md font-bold">
+          {title}
+        </h1>
         <div className="flex flex-col gap-10">
           <p className="text-xl mt-2 whitespace-pre-line">{description}</p>
           <div>
