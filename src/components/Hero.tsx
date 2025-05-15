@@ -2,7 +2,7 @@ import { SocialIcon } from "./SocialIcon";
 
 function Hero() {
   return (
-    <div className="w-screen text-white mt-10 lg:mt-20 md:items-center">
+    <div className="w-screen text-white mt-10 lg:mt-30 md:items-center">
       <div className="w-full h-auto flex flex-col lg:flex-row lg:justify-between">
         <div className="w-auto h-auto flex flex-col justify-center items-center flex-2 pt-15 xl:pt-0 px-5">
           <img

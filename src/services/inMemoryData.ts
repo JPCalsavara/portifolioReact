@@ -122,8 +122,8 @@ export class ProjectsData {
       ],
       description: `Rede social e plataforma de gerenciamento de encontros universitários. \n Entre as funcionalidades principais, estão: criação e validação de login de usuários, contagem de laranjas e armazenamento de ingredientes utilizados nos eventos. \n As novas funcionalidades incluem a criação de um método de pagamento integrado e um sistema inteligente que localiza e sugere receitas com base nos ingredientes disponíveis, utilizando inteligência artificial para otimizar o aproveitamento dos recursos.
 `,
-      urlName: "laranjada",
-      produtionLink: "",
+      urlName: "",
+      // produtionLink: "",
       repositoryLink: "https://github.com/hitalloazevedo/laranjada-project",
     },
     {
@@ -131,7 +131,7 @@ export class ProjectsData {
       tecnosUsed: ["c"],
       description:
         "Gerenciador de credenciais pessoais, onde é possível cadastrar senhas, e-mails e os sites correspondentes de maneira simples e intuitiva. \nA principal funcionalidade do sistema é proporcionar um local seguro e organizado para armazenar suas informações de login, eliminando a necessidade de memorizar diversas senhas ou, pior ainda, utilizar a mesma senha para diferentes serviços.",
-      urlName: "gerenciadorDeCredenciais",
+      urlName: "",
       produtionLink: "",
       repositoryLink: "https://github.com/JPCalsavara/gerenciador-credenciais",
     },
@@ -140,8 +140,8 @@ export class ProjectsData {
       tecnosUsed: ["c", "Thread", "Merge Sort"],
       description:
         "Programa que em C processa múltiplos arquivos de entrada, cada um contendo uma lista de inteiros desordenados (um em cada linha), utilizando threads. \n Ele realiza a leitura e ordenação simultânea dos arquivos, armazenando o resultado em um arquivo de saída. A implementação visa medir o impacto do aumento de threads no tempo de execução.",
-      urlName: "ordenadorMergeSort",
-      produtionLink: "",
+      urlName: "",
+      // produtionLink: "",
       repositoryLink: "https://github.com/JPCalsavara/mergesort",
     },
     {
@@ -149,7 +149,7 @@ export class ProjectsData {
       tecnosUsed: ["html", "css", "javascript"],
       description:
         "Programa que em C processa múltiplos arquivos de entrada, cada um contendo uma lista de inteiros desordenados (um em cada linha), utilizando threads. \n Ele realiza a leitura e ordenação simultânea dos arquivos, armazenando o resultado em um arquivo de saída. A implementação visa medir o impacto do aumento de threads no tempo de execução.",
-      urlName: "ordenadorMergeSort",
+      urlName: "",
       produtionLink: "",
       repositoryLink: "https://github.com/JPCalsavara/mergesort",
     },
@@ -245,7 +245,7 @@ export class ExperiencesData {
         No primeiro semestre de 2025, impactamos a vida de 13 alunos ensinando Python para alunos do ensino médio.
         Temos a missão de impactar 50 estudantes semestralmente em 2026.`,
       skillsLearned: ["comunicacao", "lideranca", "typescript", "react"],
-      link: "https://meuportfolio.com/frontend",
+      link: "https://www.instagram.com/semeacode.unicamp/",
     },
     {
       title: "Atria Jr",
