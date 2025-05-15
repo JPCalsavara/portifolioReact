@@ -63,7 +63,7 @@ function Hero() {
         >
           <img
             className="w-15"
-            src="../../public/images/icons/arrow-down-svgrepo-com.svg"
+            src="/images/icons/arrow-down-svgrepo-com.svg"
           />
         </a>
       </div>

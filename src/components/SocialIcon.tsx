@@ -8,9 +8,10 @@ const pathImagesDefault = "/images/social/"; // Ajustado para um caminho relativ
 
 const linksSocial: { [key: string]: string } = {
   github: "https://github.com/JPCalsavara",
-  linkedin: "https://linkedin.com/in/JPCalsavara",
+  linkedin:
+    "https://www.linkedin.com/in/jo%C3%A3o-pedro-leite-calsavara-b951b6230/",
   youtube: "https://youtube.com",
-  instagram: "https://instagram.com",
+  instagram: "https://www.instagram.com/calsacoms.dev/",
 };
 
 export const SocialIcon = () => {
