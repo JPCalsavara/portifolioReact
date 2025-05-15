@@ -1,13 +1,17 @@
-
-import CardExperience from './CardExperience';
-import { ExperiencesData } from "../services/inMemoryData"
+import CardExperience from "./CardExperience";
+import { ExperiencesData } from "../services/inMemoryData";
 
 const Experience = () => {
   const experiences = ExperiencesData.experiencies;
 
   return (
-    <div id="experiencias" className="w-full h-auto flex flex-col items-center bg-indigo-700 py-7 md:py-10 md:mt-5 lg:mt-0">
-      <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold pb-10 text-white text-shadow-violet-500">Experiências</h1>
+    <div
+      id="experiencias"
+      className="w-full h-auto scroll-m-16 flex flex-col items-center bg-indigo-700 py-7 md:py-10 md:mt-5 lg:mt-0"
+    >
+      <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold pb-10 text-white text-shadow-violet-500">
+        Experiências
+      </h1>
       <div
         className="
         w-full flex flex-col bg-indigo-900

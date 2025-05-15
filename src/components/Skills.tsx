@@ -1,18 +1,22 @@
-import { useState } from 'react';
-import CardSkills from './CardSkills'; // Importa o componente correto
-import { SkillsData } from "../services/inMemoryData"
-
+import { useState } from "react";
+import CardSkills from "./CardSkills"; // Importa o componente correto
+import { SkillsData } from "../services/inMemoryData";
 
 const Skills = () => {
   const [hoveredType, setHoveredType] = useState<string | null>(null); // Estado para rastrear o tipo em foco
 
   const skillsAll = SkillsData.skillsAll;
 
-  const legendItems = SkillsData.legendItems
+  const legendItems = SkillsData.legendItems;
 
   return (
-    <div id="habilidades" className="w-full h-auto flex flex-col justify-center items-center p-10">
-      <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold pb-10 text-white text-shadow-violet-500">Habilidades</h1>
+    <div
+      id="habilidades"
+      className="w-full h-auto scroll-m-16 flex flex-col justify-center items-center p-10"
+    >
+      <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold pb-10 text-white text-shadow-violet-500">
+        Habilidades
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-4 w-full gap-6 lg:gap-10 bg-indigo-400 rounded-t-2xl pt-10 px-10 lg:px-30 text-indigo-900">
         {skillsAll.map((skill, index) => (
           <CardSkills
