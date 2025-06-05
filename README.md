@@ -37,6 +37,7 @@ cd <NOME_DA_PASTA_DO_PROJETO>
 ```
 
 2. **Instale as dependências:**
+
    Usando npm:
 
 ```bash
@@ -121,6 +122,7 @@ O Tailwind CSS é configurado no arquivo `tailwind.config.js`. As classes utilit
 **Principais pontos da configuração:**
 
 - **`content`**: Em `tailwind.config.js`, esta propriedade especifica os arquivos onde o Tailwind deve procurar por classes para gerar o CSS final. Geralmente inclui arquivos `.html`, `.js`, `.jsx`, `.ts`, e `.tsx`.
+
   ```javascript
   // tailwind.config.js
   export default {
@@ -131,7 +133,9 @@ O Tailwind CSS é configurado no arquivo `tailwind.config.js`. As classes utilit
     plugins: [],
   };
   ```
+
 - **CSS Global**: O arquivo `src/index.css` (ou similar) é usado para importar as diretivas base do Tailwind e pode ser usado para estilos globais ou customizações mais complexas.
+
   ```css
   /* src/index.css */
   @tailwind base;
