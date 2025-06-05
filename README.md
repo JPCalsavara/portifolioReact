@@ -165,15 +165,9 @@ Este comando criará uma pasta `dist` no diretório raiz do projeto com todos os
 
 ## **Deployment (Implantação) 🌐**
 
-A pasta `dist` gerada pelo comando build contém tudo o que é necessário para implantar seu portfólio. Você pode hospedar esta pasta em diversas plataformas, como:
+A pasta `dist` gerada pelo comando build contém tudo o que é necessário para implantar seu portfólio. Eu hospedei esta pasta na plataforma:
 
-- **GitHub Pages**
-- **Vercel**
 - **Netlify**
-- **Firebase Hosting**
-- **Servidores próprios** (AWS S3, DigitalOcean, etc.)
-
-A maioria dessas plataformas oferece integração contínua (CI/CD), o que pode automatizar o processo de build e deploy a cada push para o seu repositório Git.
 
 ---
 
